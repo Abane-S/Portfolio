@@ -4,36 +4,540 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portefolio</title>
 </head>
 <body>
     <header>
-        <h1>Portefolio - coming-soon</h1>
+        <h1>&lt;/S&gt;</h1>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#project">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+            <span class="material-icons">mode_night</span>
+        </ul>
     </header>
-    <main class="coming-soon">
-        <div>
-            <section class="container-day">
-                <h2 class="day" id="days">Time</h2>
-                <span>Day</span>
-            </section>
+    <main id="home">
+        <section class="section1" >
+            <nav>
+                <a href="https://github.com/abane1" target="blank"><img src="./asset/icon/linkedin_black_logo_icon_147114.svg" alt="github"></a>
+                <a href="https://www.linkedin.com/in/abane-sebiane-7928541b2/" target="blanck"><img src="./asset/icon/github-logo_icon-icons.com_73546.svg" alt="linkedin"></a>
+                <a href="https://dribbble.com/Abane_S" target="blanck"><img src="./asset/icon/ball_dribble_game_play_sport_icon_123254.svg" alt="dribble"></a>
+            </nav>
+            <aside>
+                <h1>Hi, I'am <span >Abane <br> </span> <i>Front-end developer</i></h1>
+                <p>Hight level experience in web design and <br> development knowledge, producing <br> quality work.</p>
+                <a href="mailto:abanesebiane@outlook.fr">Contact Me <img src="./asset/icon/send_120237.svg" alt="send"></a>
+            </aside>
+            <img src="./asset/avatar.5852f40fbb38aa284829fa3fb7722225.svg" alt="avatar">
+        </section>
+        <p class="Scroll"  id="about">Scroll down <i class="fa-solid fa-arrow-down-long fa-1x fa-bounce"></i></p>
+        <section class="section2">        
+            <h1 >About Me</h1> <br>
+            <p class="intro">My introduction</p>
+            <div role="region" class="about">
+                <img src="./asset/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="me in full coding">
+                <aside>
+                    <h3>Let me introduce my self</h3>
+                    <p>I fell in love with programming and I have at least learnt something, <br> I think…</p>
+                    <p>My field of Interest's are building new  Web Technologies and Products and <br> also in areas related to Deep Learning and Natural <br> Launguage Processing.</p>
+                    <p>Whenever possible, I also apply my passion for developing products <br> with Node.js and Modern Javascript Library and Frameworks like <br> React.js and Next.js </p>
+                    <nav>
+                        <figure>
+                            <p>03+</p>
+                            <figcaption>Years experience <!-- (ne pas oublier de faire le compteur !) --></figcaption>
+                        </figure>
+                        <figure>
+                            <p>11+</p>
+                            <figcaption>Completed projects <!-- (ne pas oublier de faire le compteur !) --></figcaption>
+                        </figure>
+                        <figure>
+                            <p>02+</p>
+                            <figcaption  id="skills">Companies worked <!-- (ne pas oublier de faire le compteur !) --></figcaption>
+                        </figure>
+                    </nav>
+                </aside>
+            </div>
+        </section>
+        <section class="section3">
+            <h1 >Skills</h1>
+            <p class="p_skills">My technical level</p>
+            <div class="content">
+                <aside class="skills_content skills_open">
+                    <div role="region" class="title">
+                        <img src="./asset/icon/bracket-svgrepo-com.svg" alt="bracket">
+                        <div role="region">
+                            <h3>Frontend developer</h3>
+                            <p>More than 2 years</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-up" id="chevron_1"></i>
+                    </div>
+                    <nav>
+                        <div role="region">
+                            <p>HTML</p>
+                            <p>90%</p>
+                        </div>
+                        <div>
+                            <span class="html"></span>
+                        </div>
+                        <div role="region">
+                            <p>CSS</p>
+                            <p>80%</p>
+                        </div>
+                        <div>
+                            <span class="css"></span>
+                        </div>
+                        <div role="region">
+                            <p>javascript</p>
+                            <p>50%</p>
+                        </div>
+                        <div>
+                            <span class="js"></span>
+                        </div>
+                        <div role="region">
+                            <p>React</p>
+                            <p>20%</p>
+                        </div>
+                        <div>
+                            <span class="re"></span>
+                        </div>
+                    </nav>
+                </aside>
+                <aside class="skills_content skills_close">
+                    <div role="region" class="title">
+                        <img src="./asset/icon/server-svgrepo-com.svg" alt="server">
+                        <div role="region">
+                            <h3>Backend developer</h3>
+                            <p>More than 2 years</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-up" id="chevron_2"></i>
+                    </div>
+                    <nav>
+                        <div role="region">
+                            <p>PHP</p>
+                            <p>50%</p>
+                        </div>
+                        <div>
+                            <span class="php"></span>
+                        </div>
+                        <div role="region">
+                            <p>SQL</p>
+                            <p>40%</p>
+                        </div>
+                        <div>
+                            <span class="sql"></span>
+                        </div>
+                        <div role="region">
+                            <p>Java</p>
+                            <p>50%</p>
+                        </div>
+                        <div>
+                            <span class="java"></span>
+                        </div>
+                        <div role="region">
+                            <p>Node Js</p>
+                            <p>30%</p>
+                        </div>
+                        <div>
+                            <span class="node-js"></span>
+                        </div>
+                    </nav>
+                </aside>
+                <aside class="skills_content skills_close">
+                    <div role="region" class="title">
+                        <img src="./asset/icon/swatchbook-svgrepo-com.svg" alt="books">
+                        <div role="region">
+                            <h3>Designer</h3>
+                            <p>More than 4 years</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-up" id="chevron_3"></i>
+                    </div>
+                    <nav>
+                        <div role="region">
+                            <p>Illustrator</p>
+                            <p>60%</p>
+                        </div>
+                        <div>
+                            <span class="Illustrator"></span>
+                        </div>
+                        <div role="region">
+                            <p>Figma</p>
+                            <p>50%</p>
+                        </div>
+                        <div>
+                            <span class="Figma"></span>
+                        </div>
+                        <div role="region">
+                            <p>Adobe XD</p>
+                            <p>40%</p>
+                        </div>
+                        <div>
+                            <span class="Adobe-XD"></span>
+                        </div>
+                        <div role="region">
+                            <p>Photoshop</p>
+                            <p>30%</p>
+                        </div>
+                        <div>
+                            <span class="Photoshop"></span>
+                        </div>
+                    </nav>
+                </aside>
+            </div>
+        </section>
+        <section class="section4">
+            <h1>Qualification</h1>
+            <p class="p_parcours">My personal journey</p>
+            <nav class="below_title">
+                <aside>
+                    <img src="./asset/icon/education-svgrepo-com.svg" alt="education">
+                    <h3 class="qualification-button qualification_active" data-target="#education">Education</h3>
+                </aside>
+                <aside>
+                    <img src="./asset/icon/work-bag-svgrepo-com.svg" alt="work">
+                    <h3 class="qualification-button" data-target="#work">Work</h3>
+                </aside>
+            </nav>
+            <div class="qualification-content qualification_active" data-content id="education">
+                <nav>
+                    <aside>
+                        <h4>Bachelor</h4>
+                        <p>Efrei-Paris</p>
+                        <p>À venir</p>
+                    </aside>
+                    <aside>
+                        <span class="rond_1"></span>
+                        <span class="line_1"></span>
+                    </aside>
+                </nav>
+                <nav>
+                    <aside>
+                        <span class="rond_2"></span>
+                        <span class="line_2"></span>
+                    </aside>
+                    <aside>
+                        <h4>BTS SIO (slam)</h4>
+                        <p>ITIC - Paris</p>
+                        <p>2020 - 2022</p>
+                    </aside>
+                </nav>
+                <nav>
+                    <aside>
+                        <h4>Baccalauréat</h4>
+                        <p>Voillaume - Aulnay</p>
+                        <p>2017 - 2020</p>
+                    </aside>
+                    <aside>
+                        <span class="rond_1"></span>
+                        <span class="line_1"></span>
+                    </aside>
+                </nav>
+                <nav>
+                    <aside>
+                        <span class="rond_2"></span>
+                        <span class="line_2"></span>
+                    </aside>
+                    <aside>
+                        <h4>Brevet</h4>
+                        <p>Bondy - Assomption</p>
+                        <p>2013 - 2017</p>
+                    </aside>
+                </nav>
+            </div>
+            <div class="qualification-content" data-content id="work">
+                <nav>
+                    <aside>
+                        <h4>Alternance</h4>
+                        <p>IT-Paris</p>
+                        <p>À venir</p>
+                    </aside>
+                    <aside>
+                        <span class="rond_1"></span>
+                        <span class="line_1"></span>
+                    </aside>
+                </nav>
+                <nav>
+                    <aside>
+                        <span class="rond_2"></span>
+                        <span class="line_2"></span>
+                    </aside>
+                    <aside>
+                        <h4>Stage</h4>
+                        <p>Dagari</p>
+                        <p>10/05 - 18/06/2021</p>
+                    </aside>
+                </nav>
+                <nav>
+                    <aside>
+                        <h4>Stage</h4>
+                        <p>Dagari</p>
+                        <p>01/11 - 06/12/2021</p>
+                    </aside>
+                    <aside >
+                        <span class="rond_1"></span>
+                        <span class="line_1"></span>
+                    </aside>
+                </nav>
+            </div>
+            <p id="services"></p>
+        </section>
+        <section class="section5">
+            <h1>Services</h1>
+            <p class="p">What i can do</p>
+            <div class="services_container">
+                <nav class="services_content">  
+                    <aside>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3>Ui/Ux <br>Designer</h3>
+                    </aside>
+                    <aside>
+                        <span class="services_button"> View More <i class="fa-solid fa-arrow-right"></i></span>
+                    </aside>
+                    <aside class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Web page developement.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I create ux element intereations.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I postion your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </nav>
+                <nav class="services_content">
+                    <aside>
+                        <i class="uil uil-arrow services_icon"></i>
+                        <h3>Front-end <br> Developer</h3>
+                    </aside>
+                    <aside>
+                        <span class="services_button"> View More <i class="fa-solid fa-arrow-right"></i></span>
+                    </aside>
+                    <aside class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Front-end <br> Developer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Web page developement.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I create ux element intereations.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I postion your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </nav>
+                <nav class="services_content">
+                    <aside>
+                        <i class="uil uil-pen services_icon"></i>
+                        <h3>Branding <br> Designer</h3>
+                    </aside>
+                    <aside>
+                        <span class="services_button">View More <i class="fa-solid fa-arrow-right"></i></span>
+                    </aside>
+                    <aside class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Branding <br> Designer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Web page developement.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>I create ux element intereations.</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p >I postion your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </nav>
+            </div>
+            <p id="project"></p>
+        </section>
+        <section class="section6" >
+            <h1>Project</h1>
+            <p class="p">Most recent work</p>
+            <div class="portfolio_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <nav class="portfolio_content grid swiper-slide">
+                        <img src="./asset/Project/Screenshot 2022-05-08 192011.jpg" alt="image_of_project">
+                        <aside class="portfolio_data">
+                            <h3 class="portfolio_title">Front-end</h3>
+                            <p class="portfolio_description">Website adaptable to all devices, with <br> Ui components and animated <br> interractions.</p>
+                            <a href="" class="button button--flex button--small portfolio_button"> Demo <i class="uil uil-arrow-right button_icon"></i></a>
+                        </aside>
+                    </nav>
+                    <nav class="portfolio_content grid swiper-slide">
+                        <img src="./asset/Project/Screenshot 2022-05-08 183653.jpg" alt="image_of_project">
+                        
+                        <aside class="portfolio_data">
+                            <h3 class="portfolio_title">Front-end</h3>
+                            <p class="portfolio_description">Website adaptable to all devices, with <br> Ui components and animated <br> interractions.</p>
+                            <a href="" class="button button--flex button--small portfolio_button"> Demo <i class="uil uil-arrow-right button_icon"></i></a>
+                        </aside>
+                    </nav>
+                    <nav class="portfolio_content grid swiper-slide">
+                        <img src="./asset/Project/pageAcceuil.png" alt="image_of_project">
+                        
+                        <aside class="portfolio_data">
+                            <h3 class="portfolio_title">Back-end</h3>
+                            <p class="portfolio_description">Website adaptable to all devices, with <br> Ui components and animated <br> interractions.</p>
+                            <a href="" class="button button--flex button--small portfolio_button"> Demo <i class="uil uil-arrow-right button_icon"></i></a>
+                        </aside>
+                    </nav>
+                </div>
+                <!-- Arrows --> 
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div id="contact"  class="swiper-pagination"></div>
+            </div>
+            
+        </section>
+        <section class="section7">
+            <h1 class="section_title">Contact</h1>
+            <p class="section_subtitle">Get in touch</p>
+            
+            <div class="contact_container container grid">
+                <div class="contact">
+                    <nav class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+                        
+                        <aside>
+                            <h3 class="contact_title">Call Me</h3>
+                            <p class="contact_subtitle">06-95-84-61-24</p>
+                        </aside>
+                    </nav>
+                    
+                    <nav class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+                        
+                        <aside>
+                            <h3 class="contact_title">Email</h3>
+                            <p class="contact_subtitle">abansebiane@outlook.fr</p>
+                        </aside>
+                    </nav>
+                    
+                    <nav class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+                        
+                        <aside>
+                            <h3 class="contact_title">Localisation</h3>
+                            <p class="contact_subtitle">Villepinte - Paris</p>
+                        </aside>
+                    </nav>
+                </div>
+                <form action="" class="contact_form grid">
+                    <nav class="contact_inputs grid">
+                        <div class="flex_container">
+                            <aside class="contact_content">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" class="contact_input">
+                            </aside>
+                            <aside class="contact_content">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact_input">
+                            </aside>
+                        </div>
+                        <aside class="contact_content">
+                            <label for="" class="contact_label">Object</label>
+                            <input type="text" class="contact_input">
+                        </aside>
+                        <aside class="contact_content">
+                            <label for="" class="contact_label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        </aside>
+                        
+                        <aside>
+                            <a href="#" class="button button--flex">
+                                Send Messsage
+                                <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </aside>
+                    </nav>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <aside>
+                    <h1 class="footer_title">Abane</h1>
+                    <p class="footer_subtitle">Front-end developer</p>
+                </aside>
+                <ul class="footer">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
+                <aside class="footer_socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </aside>
+            </div>
 
-            <section class="container-hour">
-                <h2 class="hour" id="hours">Time</h2>
-                <span>Hours</span>
-            </section>
-
-            <section class="container-minute">
-                <h2 class="minute" id="mins">Time</h2>
-                <span>Minute</span>
-            </section>
-
-            <section class="container-seconds">
-                <h2 class="second" id="seconds">Time</h2>
-                <span>Seconds</span>
-            </section>
+            <p class="footer_copy">&#169; Abane. All right reserved</p>
         </div>
-    </main> 
-    
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://kit.fontawesome.com/60f2c68171.js" crossorigin="anonymous"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
 </body>
 </html>
